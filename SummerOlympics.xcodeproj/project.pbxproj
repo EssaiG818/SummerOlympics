@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		67AB51362F96A1F1006D31FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AB511D2F96A1F0006D31FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AB51242F96A1F0006D31FD;
+			remoteInfo = SummerOlympics;
+		};
+		67AB51402F96A1F1006D31FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AB511D2F96A1F0006D31FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AB51242F96A1F0006D31FD;
+			remoteInfo = SummerOlympics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67AB51252F96A1F0006D31FD /* SummerOlympics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerOlympics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AB51352F96A1F1006D31FD /* SummerOlympicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerOlympicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AB513F2F96A1F1006D31FD /* SummerOlympicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerOlympicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		67AB51272F96A1F0006D31FD /* SummerOlympics */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SummerOlympics;
+			sourceTree = "<group>";
+		};
+		67AB51382F96A1F1006D31FD /* SummerOlympicsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SummerOlympicsTests;
+			sourceTree = "<group>";
+		};
+		67AB51422F96A1F1006D31FD /* SummerOlympicsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SummerOlympicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67AB51222F96A1F0006D31FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB51322F96A1F1006D31FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB513C2F96A1F1006D31FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67AB511C2F96A1F0006D31FD = {
+			isa = PBXGroup;
+			children = (
+				67AB51272F96A1F0006D31FD /* SummerOlympics */,
+				67AB51382F96A1F1006D31FD /* SummerOlympicsTests */,
+				67AB51422F96A1F1006D31FD /* SummerOlympicsUITests */,
+				67AB51262F96A1F0006D31FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67AB51262F96A1F0006D31FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67AB51252F96A1F0006D31FD /* SummerOlympics.app */,
+				67AB51352F96A1F1006D31FD /* SummerOlympicsTests.xctest */,
+				67AB513F2F96A1F1006D31FD /* SummerOlympicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67AB51242F96A1F0006D31FD /* SummerOlympics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AB51492F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympics" */;
+			buildPhases = (
+				67AB51212F96A1F0006D31FD /* Sources */,
+				67AB51222F96A1F0006D31FD /* Frameworks */,
+				67AB51232F96A1F0006D31FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				67AB51272F96A1F0006D31FD /* SummerOlympics */,
+			);
+			name = SummerOlympics;
+			packageProductDependencies = (
+			);
+			productName = SummerOlympics;
+			productReference = 67AB51252F96A1F0006D31FD /* SummerOlympics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67AB51342F96A1F1006D31FD /* SummerOlympicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AB514C2F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympicsTests" */;
+			buildPhases = (
+				67AB51312F96A1F1006D31FD /* Sources */,
+				67AB51322F96A1F1006D31FD /* Frameworks */,
+				67AB51332F96A1F1006D31FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67AB51372F96A1F1006D31FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67AB51382F96A1F1006D31FD /* SummerOlympicsTests */,
+			);
+			name = SummerOlympicsTests;
+			packageProductDependencies = (
+			);
+			productName = SummerOlympicsTests;
+			productReference = 67AB51352F96A1F1006D31FD /* SummerOlympicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67AB513E2F96A1F1006D31FD /* SummerOlympicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AB514F2F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympicsUITests" */;
+			buildPhases = (
+				67AB513B2F96A1F1006D31FD /* Sources */,
+				67AB513C2F96A1F1006D31FD /* Frameworks */,
+				67AB513D2F96A1F1006D31FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67AB51412F96A1F1006D31FD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				67AB51422F96A1F1006D31FD /* SummerOlympicsUITests */,
+			);
+			name = SummerOlympicsUITests;
+			packageProductDependencies = (
+			);
+			productName = SummerOlympicsUITests;
+			productReference = 67AB513F2F96A1F1006D31FD /* SummerOlympicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67AB511D2F96A1F0006D31FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					67AB51242F96A1F0006D31FD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					67AB51342F96A1F1006D31FD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 67AB51242F96A1F0006D31FD;
+					};
+					67AB513E2F96A1F1006D31FD = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 67AB51242F96A1F0006D31FD;
+					};
+				};
+			};
+			buildConfigurationList = 67AB51202F96A1F0006D31FD /* Build configuration list for PBXProject "SummerOlympics" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67AB511C2F96A1F0006D31FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 67AB51262F96A1F0006D31FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67AB51242F96A1F0006D31FD /* SummerOlympics */,
+				67AB51342F96A1F1006D31FD /* SummerOlympicsTests */,
+				67AB513E2F96A1F1006D31FD /* SummerOlympicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67AB51232F96A1F0006D31FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB51332F96A1F1006D31FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB513D2F96A1F1006D31FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67AB51212F96A1F0006D31FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB51312F96A1F1006D31FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB513B2F96A1F1006D31FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67AB51372F96A1F1006D31FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67AB51242F96A1F0006D31FD /* SummerOlympics */;
+			targetProxy = 67AB51362F96A1F1006D31FD /* PBXContainerItemProxy */;
+		};
+		67AB51412F96A1F1006D31FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67AB51242F96A1F0006D31FD /* SummerOlympics */;
+			targetProxy = 67AB51402F96A1F1006D31FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67AB51472F96A1F1006D31FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67AB51482F96A1F1006D31FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67AB514A2F96A1F1006D31FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummerOlympics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67AB514B2F96A1F1006D31FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SummerOlympics/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67AB514D2F96A1F1006D31FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerOlympics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerOlympics";
+			};
+			name = Debug;
+		};
+		67AB514E2F96A1F1006D31FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerOlympics.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SummerOlympics";
+			};
+			name = Release;
+		};
+		67AB51502F96A1F1006D31FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerOlympics;
+			};
+			name = Debug;
+		};
+		67AB51512F96A1F1006D31FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Essai.SummerOlympicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SummerOlympics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67AB51202F96A1F0006D31FD /* Build configuration list for PBXProject "SummerOlympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AB51472F96A1F1006D31FD /* Debug */,
+				67AB51482F96A1F1006D31FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AB51492F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AB514A2F96A1F1006D31FD /* Debug */,
+				67AB514B2F96A1F1006D31FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AB514C2F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AB514D2F96A1F1006D31FD /* Debug */,
+				67AB514E2F96A1F1006D31FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AB514F2F96A1F1006D31FD /* Build configuration list for PBXNativeTarget "SummerOlympicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AB51502F96A1F1006D31FD /* Debug */,
+				67AB51512F96A1F1006D31FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67AB511D2F96A1F0006D31FD /* Project object */;
+}
